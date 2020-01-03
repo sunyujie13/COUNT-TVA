@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tva.css">
+</head>
+<body>
+    <section>
+            <h1>Calculer une TVA</h1>
+            <p id="demo"></p>
+            <p id="demo2"></p>
+        <div>
+            <h5>Montant Hors Taxes</h5>
+            <h5>Montant TVA</h5>
+            <h5>Montant TTC</h5>
+        </div>
+        <div >
+            <input  id = "montant" type="text" value=" 0 €" onchange="myFunction()"> 
+            <p>+</p>
+            <input id = "tva" type="text" value="0 €" > 
+            <p>=</p>
+            <input id = "ttc" type="text" value="0 €"> 
+        </div>   
+        <div>
+            <h5>Taux TVA</h5>
+        </div>
+        <div>
+            <button id="tvaButton" onclick="myFunction()">20%</button>
+        </div>     
+        <div id = "myButtons">
+            <button class="ourButton">20%</button>
+            <button class="ourButton" >10%</button>
+            <button class="ourButton">8.5%</button>
+            <button class="ourButton">7%</button>
+            <button class="ourButton">5.5%</button>
+            <button class="ourButton">19.6%</button>
+
+        </div>
+
+    </section>
+
+    <script src="js/tva.js"></script>
+</body>
+</html>
